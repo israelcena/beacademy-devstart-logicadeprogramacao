@@ -1,4 +1,5 @@
 <?php
+// Aula de Lógica de Programação - Professor Marcos Monteiro marcos.monteiro@gmail.com
 echo "<h1>Exercício de Algoritmo 1 </h1>";
 echo "<h2>Como trocar um pneu furado ?</h2>";
 echo "<ol>";
