@@ -1,15 +1,17 @@
 <form action="" method="post">
-	<label for="operacao">Selecione a operação: </label>
-	<select name="operacao" id="operacao">
-		<option value="deposito">Deposito</option>
-		<option value="saque">Saque</option>
-	</select>
+	<label for="value">Digite um número: </label>
+	<input type="number" name="value" id="value" required /><br />
 	<button>Confirmar</button>
 </form>
 
 <?php
 	if ($_POST) {
-	}
+		$i = 0;
+		while ($i <= 10) {
+			echo $_POST["value"] . " x " . $i . " = " . ($i * $_POST["value"]) . "<br />";
+			$i++;
+		};
+	};
 
 echo "<br/>";
 echo "<br/>";
