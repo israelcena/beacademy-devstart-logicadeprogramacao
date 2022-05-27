@@ -12,4 +12,4 @@ echo "<li>Retirar o pneu estepe do local de armazenamento;</li>";
 echo "<li>Colocar o pneu estepe no lugar do pneu furado;</li>";
 echo "<li>Guardar o pneu furado para reparo futuro.</li>";
 echo "</ol>";
-echo "<button onclick=\"window.location.href = './index.php';\">Voltar</button>";
+echo "<button onclick=\"window.location.href = './index.php';\">Voltar p/ home</button>";
