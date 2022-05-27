@@ -9,4 +9,6 @@ echo "<li><a href=\"./exercicio4.php\">Exercício 4 - Saldo Bancário</a></li>";
 echo "<li><a href=\"./exercicio5.php\">Exercício 5 - IMC condicional</a></li>";
 echo "<li><a href=\"./exercicio6.php\">Exercício 6 - Classificação de Menor Idade</a></li>";
 echo "<li><a href=\"./exercicio7.php\">Exercício 7 - Saldo II</a></li>";
+echo "<li><a href=\"./exercicio8.php\">Exercício 8 - Operaçõoes Aritméticas</a></li>";
+echo "<li><a href=\"./exercicio9.php\">Exercício 9 - </a></li>";
 echo "</ol>";
