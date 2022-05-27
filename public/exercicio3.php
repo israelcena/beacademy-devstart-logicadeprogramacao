@@ -6,40 +6,11 @@
 
 <?php
 if ($_POST) {
-  $nome = $_POST["nome"];
-  $idade = $_POST["idade"];
-  $maiorQue18 = false;
-  $idade25 = false;
-  $nomeMarcos = "Marcos";
-  $statusNomeMarcos = "";
-
-  echo "Nome: " . $nome . "<br/>";
-  echo "Idade: " . $idade . " anos <br/>";
-
-  if ($idade > 18) {
-    $maiorQue18 = true;
-    } else {
-    $maiorQue18 = false;
-  }
-
-  if ($idade = 25) {
-    $idade25 = true;
-  }
-
-  if ($idade = 25 && $nome = "Marcos" ) {
-    $statusNomeMarcos = "Bem vindo, Marcos e você tem 25 anos";
-    } else {
-    $statusNomeMarcos = "Não é Marcos com 25 anos";
-  }
-
-  $statusDaIdade18 = $maiorQue18 ? "maior de idade" : "menor de idade";
-  $statusDaIdade25 = $idade25 ? "A idade é 25" : "A idade não é 25";
-
-  echo "Você é " . $statusDaIdade18;
-  echo "<br/>";
-  echo $statusDaIdade25;
-  echo "<br/>";
-  echo $statusNomeMarcos;
+  echo "Olá, " . $_POST['nome'] . "! Você tem " . $_POST['idade'] . " anos." . "<br />";
+  echo "Idade maior que 18? " . ($_POST['idade'] > 18 ? "Sim" : "Não") . "<br />";
+  echo "Idade é igual a 25 e nome diferente de Marcos? " . ($_POST['idade'] == 25 && $_POST['nome'] != "Marcos" ? "Sim" : "Não") . "<br />";
+  echo "Idade é diferente de 25 e nome igual a Marcos? " . ($_POST['idade'] != 25 && $_POST['nome'] == "Marcos" ? "Sim" : "Não") . "<br />";
+  echo "Idade dividida por 2 é igual a 0 ? " . (($_POST['idade'] / 2) == 0 ? "Sim" : "Não") . "<br />";
 }
 
 echo "<br/>";
