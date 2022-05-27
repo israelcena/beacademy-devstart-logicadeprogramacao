@@ -1,12 +1,18 @@
 # Exercícios de Algoritmos do Programa Dev Start Pay Livre
 
 ## Lista de exercícios
-[Exercício1](./public/exercicio1.php)
-[Exercício2](./public/exercicio2.php)
-[Exercício3](./public/exercicio3.php)
-[Exercício4](./public/exercicio4.php)
-[Exercício5](./public/exercicio5.php)
-[Exercício6](./public/exercicio6.php)
+
+- [Exercício1](./public/exercicio1.php)
+- [Exercício2](./public/exercicio2.php)
+- [Exercício3](./public/exercicio3.php)
+- [Exercício4](./public/exercicio4.php)
+- [Exercício5](./public/exercicio5.php)
+- [Exercício6](./public/exercicio6.php)
+- [Exercício7](./public/exercicio7.php)
+- [Exercício8](./public/exercicio8.php)
+- [Exercício9](./public/exercicio9.php)
+- [Exercício10](./public/exercicio10.php)
+- [Exercício11](./public/exercicio11.php)
 
 ## Comentários
 
