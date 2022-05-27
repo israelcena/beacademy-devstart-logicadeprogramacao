@@ -1,14 +1,14 @@
 <form action="" method="post">
-	<label for="operacao">Selecione a operação: </label>
-	<select name="operacao" id="operacao">
-		<option value="deposito">Deposito</option>
-		<option value="saque">Saque</option>
-	</select>
+	<label for="numero">Informe um numero: </label><br/> 
+	<input type="number" name="numero" id="numero" required /> <br/> 
 	<button>Confirmar</button>
 </form>
 
 <?php
 	if ($_POST) {
+		for ($i=0; $i <= 10; $i++) { 
+			echo $_POST['numero'] . " x " . $i . " = " . ($_POST['numero'] * $i) . "<br/>";
+		}
 	}
 
 echo "<br/>";
