@@ -1,15 +1,12 @@
-<form action="" method="post">
-	<label for="operacao">Selecione a operação: </label>
-	<select name="operacao" id="operacao">
-		<option value="deposito">Deposito</option>
-		<option value="saque">Saque</option>
-	</select>
-	<button>Confirmar</button>
-</form>
+<h1>Múltiplos de 100</h1>
 
 <?php
-	if ($_POST) {
-	}
+	
+		for ($i=0; $i <= 100; $i++) { 
+			if ($i % 2 == 0) {
+				echo $i . "<br /> ";
+			}
+		}
 
 echo "<br/>";
 echo "<br/>";
